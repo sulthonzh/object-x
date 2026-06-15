@@ -1,0 +1,25 @@
+{
+  "name": "object-x",
+  "version": "1.0.0",
+  "description": "Zero-dependency object manipulation utilities — deep merge, deep clone, deep get/set, flatten, unflatten, pick/omit, mapValues, mapKeys, and more.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "object-x": "src/cli.js"
+  },
+  "scripts": {
+    "test": "node --test test/",
+    "demo": "node src/cli.js demo"
+  },
+  "keywords": ["object", "deep-merge", "deep-clone", "flatten", "unflatten", "deep-get", "deep-set", "pick", "omit", "mapvalues", "mapkeys", "zero-dependency"],
+  "author": "sulthonzh",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sulthonzh/object-x.git"
+  },
+  "homepage": "https://github.com/sulthonzh/object-x",
+  "bugs": {
+    "url": "https://github.com/sulthonzh/object-x/issues"
+  }
+}
