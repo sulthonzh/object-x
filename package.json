@@ -8,7 +8,7 @@
     "object-x": "src/cli.js"
   },
   "scripts": {
-    "test": "node --test test/",
+    "test": "node --test test/*.test.js",
     "demo": "node src/cli.js demo"
   },
   "keywords": [
